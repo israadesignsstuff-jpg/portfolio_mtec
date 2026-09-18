@@ -1,0 +1,104 @@
+/* only the color scheme was generated using a color palette generator online. */
+
+body{
+  background-color: #fff0f3;
+  color: #2b2226;
+}
+
+#navBar{
+    background-color: #e8a0bf;
+    width: 100%;
+    height: 40px;
+}
+ul.navBar{
+    display: flex;
+    gap: 20px;
+    align-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+h1,h3.title {
+   text-align: center;
+}
+h1{
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:#2b2226;
+    font-size: 20px;
+}
+
+h2{
+    padding: 20px;
+}
+
+p,ul,ol{
+    padding: 20px;
+    font-size: 20px;
+}
+
+img.personalPhoto{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+/* Table css */
+
+table{
+    width: 100%;
+    margin: 25px 0;
+    border-collapse: collapse;
+}
+thead{
+    background-color:#E8A0BF;
+}
+
+td,th{
+    padding: 10px;
+    text-align: center;
+}
+caption{
+    font-style: italic;
+}
+
+#contactForm{
+    background-color: #E8A0BF;
+    
+
+}
+label{
+    padding: 20px;
+    font-weight: bold;
+}
+input{
+  width: 50%;
+  padding: 5px;
+}
+button.submit{
+    background-color: white;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+#backTop{
+   position: fixed;
+    bottom: 50px;
+    right: 5px;
+    border-radius: 5px;
+    box-shadow: none;
+    
+}
+#backTop a{
+    font-size: 12px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}

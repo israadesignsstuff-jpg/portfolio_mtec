@@ -10,7 +10,7 @@
     <!-- navigation bar -->
     <section id="navBar">
         <nav>
-          <ul style="list-style: none;">
+          <ul style="list-style: none;" class="navBar">
             <li><a href="/">Home</a></li>
             <li><a href="#personalInfo">About me</a></li>
             <li><a href="#technicalSkills">Skills</a></li>
@@ -23,14 +23,19 @@
 
     <section id="personalInfo">
     <h1>Israa Mohamed</h1>
+    <h3 class="title">Web Developer</h3>
 
-    <img src="/photos/me.png" alt="personal photo" width="300px" height="300px">
+    <img src="/photos/me.png" alt="personal photo" class="personalPhoto">
     
 
     <!-- remember to write the introduction -->
     <h2>About me</h2>
 
-    <p>introduction about me</p>
+    <p>Hello! my name is Israa & I'm 28 years old. 
+      I've studied Marketing & graphic design
+      & I'm making a switch into Web Development. 
+      I hope you like my work.
+    </p>
 
     <h2>My interests!</h2>
       <ul>
@@ -61,6 +66,7 @@
                     <th>Technology</th>
                     <th>Level</th>
                     <th>Status</th>
+                    <th>Notes</th>
                 </tr>
             </thead>
             <tbody>
@@ -68,16 +74,19 @@
                     <td>HTML</td>
                     <td>Intermediate</td>
                     <td>practicing</td>
+                    <td>Enjoying using HTML a lot more</td>
                 </tr>
                 <tr>
                     <td>CSS</td>
                     <td>Intermediate</td>
                     <td>practicing</td>
+                    <td>Making sure I don't use Ai while using CSS, only research.</td>
                 </tr>
                 <tr>
                     <td>JS</td>
                     <td>Beginner</td>
                     <td>Learning</td>
+                    <td>struggling to use it but need more time learning it.</td>
                 </tr>
             </tbody>
         </table>
@@ -91,7 +100,7 @@
        <form method="post" >
          <label>Name: <input type="text" placeholder="write your name here..." required></label><br><br>
          <label>Email: <input type="email" placeholder="enter your email..." required></label><br><br>
-         <button type="submit">submit</button><br><br>
+         <button class="submit" type="submit">submit</button><br><br>
        </form>
 
     </section><br><br>
@@ -112,7 +121,7 @@
     </footer><br><br>
 
     <!-- This button is to navigate the user back to the top of the page -->
-    <button id="backTop"><a href="#navBar">Back to the top!</a></button>
+    <button id="backTop"><a href="#navBar">Back to the top</a></button>
 
 </body>
 </html>
