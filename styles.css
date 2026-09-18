@@ -12,16 +12,20 @@ body{
 }
 ul.navBar{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-content: space-between;
     padding: 10px;
-    text-align: center;
+    
 }
 h1,h3.title {
    text-align: center;
 }
 h1{
-    padding-top: 10px;
+   
+    font-size: 40px;
+}
+h3{
+    font-size: 25px;
 }
 
 a{
@@ -32,6 +36,7 @@ a{
 
 h2{
     padding: 20px;
+    font-size: 30px;
 }
 
 p,ul,ol{
@@ -41,8 +46,8 @@ p,ul,ol{
 
 img.personalPhoto{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 /* Table css */
